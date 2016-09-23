@@ -1,0 +1,89 @@
+{
+    "docs": [
+        {
+            "location": "/",
+            "text": "Julia Smooth Optimizers\n\n\nHere you will find a collection of Julia packages for Nonlinear Optimization.\nThese packages provides all the tools needed for creating optimization problems,\nand optimization methods.\nEventually, we'll provide pure Julia implementations of Large-Scale robust\nmethods.\n\n\n\n\nAMD.jl\n: Approximate Minimum Degree Ordering in Julia\n\n\nAmplNLReader.jl\n: Julia AMPL Models Conforming to NLPModels.jl\n\n\nCUTEst.jl\n: Julia's CUTEst Interface\n\n\nHSL.jl\n: Julia interface to the HSL Mathematical Software Library\n\n\nKrylov.jl\n: A Julia Basket of Hand-Picked Krylov Methods\n\n\nLinearOperators.jl\n: Linear Operators for Julia\n\n\nmp\n: An open-source library for mathematical programming\n\n\nMUMPS.jl\n: A Julia Interface to MUMPS\n\n\nNLPModels.jl\n: Data Structures for Optimization Models\n\n\nOptimizationProblems.jl\n: Optimization Problems for Julia\n\n\nOptimize.jl\n: Optimization Algorithms in Pure Julia\n\n\nProfiles.jl\n: Performance and data profiles\n\n\nPROPACK.jl\n: Julia wrapper of the PROPACK sparse SVD library\n\n\nqr_mumps.jl\n: Interface to multicore QR factorization qr_mumps",
+            "title": "Home"
+        },
+        {
+            "location": "/#julia-smooth-optimizers",
+            "text": "Here you will find a collection of Julia packages for Nonlinear Optimization.\nThese packages provides all the tools needed for creating optimization problems,\nand optimization methods.\nEventually, we'll provide pure Julia implementations of Large-Scale robust\nmethods.   AMD.jl : Approximate Minimum Degree Ordering in Julia  AmplNLReader.jl : Julia AMPL Models Conforming to NLPModels.jl  CUTEst.jl : Julia's CUTEst Interface  HSL.jl : Julia interface to the HSL Mathematical Software Library  Krylov.jl : A Julia Basket of Hand-Picked Krylov Methods  LinearOperators.jl : Linear Operators for Julia  mp : An open-source library for mathematical programming  MUMPS.jl : A Julia Interface to MUMPS  NLPModels.jl : Data Structures for Optimization Models  OptimizationProblems.jl : Optimization Problems for Julia  Optimize.jl : Optimization Algorithms in Pure Julia  Profiles.jl : Performance and data profiles  PROPACK.jl : Julia wrapper of the PROPACK sparse SVD library  qr_mumps.jl : Interface to multicore QR factorization qr_mumps",
+            "title": "Julia Smooth Optimizers"
+        },
+        {
+            "location": "/packages/",
+            "text": "AMD.jl \n\n\nApproximate Minimum Degree Ordering in Julia\n\n\n\n\n \n \n\n\n \n \n\n\n \n \n\n\n\n\n\n\n\n\nAmplNLReader.jl \n\n\nJulia AMPL Models Conforming to NLPModels.jl\n\n\n\n\n \n \n\n\n \n \n\n\n \n \n\n\n\n\n\n\n\n\nCUTEst.jl \n\n\nJulia's CUTEst Interface\n\n\n\n\n \n \n\n\n \n \n\n\n \n \n\n\n\n\n\n\n\n\nHSL.jl \n\n\nJulia interface to the HSL Mathematical Software Library\n\n\n\n\n \n \n\n\n \n \n\n\n \n \n\n\n\n\n\n\n\n\nKrylov.jl \n\n\nA Julia Basket of Hand-Picked Krylov Methods\n\n\n\n\n \n \n\n\n \n \n\n\n \n \n\n\n\n\n\n\n\n\nLinearOperators.jl \n\n\nLinear Operators for Julia\n\n\n\n\n \n \n\n\n \n \n\n\n \n \n\n\n\n\n\n\n\n\nmp \n\n\nAn open-source library for mathematical programming\n\n\n\n\n \n \n\n\n \n \n\n\n \n \n\n\n\n\n\n\n\n\nMUMPS.jl \n\n\nA Julia Interface to MUMPS\n\n\n\n\n \n \n\n\n \n \n\n\n \n \n\n\n\n\n\n\n\n\nNLPModels.jl \n\n\nData Structures for Optimization Models\n\n\n\n\n \n \n\n\n \n \n\n\n \n \n\n\n\n\n\n\n\n\nOptimizationProblems.jl \n\n\nOptimization Problems for Julia\n\n\n\n\n \n \n\n\n \n \n\n\n \n \n\n\n\n\n\n\n\n\nOptimize.jl \n\n\nOptimization Algorithms in Pure Julia\n\n\n\n\n \n \n\n\n \n \n\n\n \n \n\n\n\n\n\n\n\n\nProfiles.jl \n\n\nPerformance and data profiles\n\n\n\n\n \n \n\n\n \n \n\n\n \n \n\n\n\n\n\n\n\n\nPROPACK.jl \n\n\nJulia wrapper of the PROPACK sparse SVD library\n\n\n\n\n \n \n\n\n \n \n\n\n \n \n\n\n\n\n\n\n\n\nqr_mumps.jl \n\n\nInterface to multicore QR factorization qr_mumps",
+            "title": "Packages"
+        },
+        {
+            "location": "/packages/#amdjl",
+            "text": "Approximate Minimum Degree Ordering in Julia",
+            "title": "AMD.jl"
+        },
+        {
+            "location": "/packages/#amplnlreaderjl",
+            "text": "Julia AMPL Models Conforming to NLPModels.jl",
+            "title": "AmplNLReader.jl"
+        },
+        {
+            "location": "/packages/#cutestjl",
+            "text": "Julia's CUTEst Interface",
+            "title": "CUTEst.jl"
+        },
+        {
+            "location": "/packages/#hsljl",
+            "text": "Julia interface to the HSL Mathematical Software Library",
+            "title": "HSL.jl"
+        },
+        {
+            "location": "/packages/#krylovjl",
+            "text": "A Julia Basket of Hand-Picked Krylov Methods",
+            "title": "Krylov.jl"
+        },
+        {
+            "location": "/packages/#linearoperatorsjl",
+            "text": "Linear Operators for Julia",
+            "title": "LinearOperators.jl"
+        },
+        {
+            "location": "/packages/#mp",
+            "text": "An open-source library for mathematical programming",
+            "title": "mp"
+        },
+        {
+            "location": "/packages/#mumpsjl",
+            "text": "A Julia Interface to MUMPS",
+            "title": "MUMPS.jl"
+        },
+        {
+            "location": "/packages/#nlpmodelsjl",
+            "text": "Data Structures for Optimization Models",
+            "title": "NLPModels.jl"
+        },
+        {
+            "location": "/packages/#optimizationproblemsjl",
+            "text": "Optimization Problems for Julia",
+            "title": "OptimizationProblems.jl"
+        },
+        {
+            "location": "/packages/#optimizejl",
+            "text": "Optimization Algorithms in Pure Julia",
+            "title": "Optimize.jl"
+        },
+        {
+            "location": "/packages/#profilesjl",
+            "text": "Performance and data profiles",
+            "title": "Profiles.jl"
+        },
+        {
+            "location": "/packages/#propackjl",
+            "text": "Julia wrapper of the PROPACK sparse SVD library",
+            "title": "PROPACK.jl"
+        },
+        {
+            "location": "/packages/#qr_mumpsjl",
+            "text": "Interface to multicore QR factorization qr_mumps",
+            "title": "qr_mumps.jl"
+        }
+    ]
+}
