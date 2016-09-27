@@ -183,6 +183,34 @@
         
       
       
+        <ul>
+          
+            <li class="anchor">
+              <a title="Optimization Problems" href="#optimization-problems">
+                Optimization Problems
+              </a>
+            </li>
+          
+            <li class="anchor">
+              <a title="Tools" href="#tools">
+                Tools
+              </a>
+            </li>
+          
+            <li class="anchor">
+              <a title="Methods" href="#methods">
+                Methods
+              </a>
+            </li>
+          
+            <li class="anchor">
+              <a title="Interfaces" href="#interfaces">
+                Interfaces
+              </a>
+            </li>
+          
+        </ul>
+      
     
   </li>
 
@@ -220,27 +248,58 @@
       <article class="article">
         <div class="wrapper">
           
-          <h1 id="julia-smooth-optimizers"><a href="https://JuliaSmoothOptimizers.github.io">Julia Smooth Optimizers</a></h1>
+          <h1 id="julia-smooth-optimizers-"><a href="https://JuliaSmoothOptimizers.github.io">Julia Smooth Optimizers</a> - <a class="icon icon-github" href="https://github.com/JuliaSmoothOptimizers/"></a></h1>
 <p>Here you will find a collection of Julia packages for Nonlinear Optimization.
-These packages provides all the tools needed for creating optimization problems,
-and optimization methods.
-Eventually, we'll provide pure Julia implementations of Large-Scale robust
-methods.</p>
+These packages provide the tools needed for creating optimization problems and
+methods, but also provide access for optimization problems and methods.</p>
+<p>See each package status <a href="./packages">here</a>.</p>
+<h2 id="optimization-problems">Optimization Problems</h2>
 <ul>
-<li><a href="./packages/#amdjl"><strong>AMD.jl</strong></a>: Approximate Minimum Degree Ordering in Julia</li>
-<li><a href="./packages/#amplnlreaderjl"><strong>AmplNLReader.jl</strong></a>: Julia AMPL Models Conforming to NLPModels.jl</li>
-<li><a href="./packages/#cutestjl"><strong>CUTEst.jl</strong></a>: Julia's CUTEst Interface</li>
-<li><a href="./packages/#hsljl"><strong>HSL.jl</strong></a>: Julia interface to the HSL Mathematical Software Library</li>
-<li><a href="./packages/#krylovjl"><strong>Krylov.jl</strong></a>: A Julia Basket of Hand-Picked Krylov Methods</li>
-<li><a href="./packages/#linearoperatorsjl"><strong>LinearOperators.jl</strong></a>: Linear Operators for Julia</li>
-<li><a href="./packages/#mp"><strong>mp</strong></a>: An open-source library for mathematical programming</li>
-<li><a href="./packages/#mumpsjl"><strong>MUMPS.jl</strong></a>: A Julia Interface to MUMPS</li>
-<li><a href="./packages/#nlpmodelsjl"><strong>NLPModels.jl</strong></a>: Data Structures for Optimization Models</li>
-<li><a href="./packages/#optimizationproblemsjl"><strong>OptimizationProblems.jl</strong></a>: Optimization Problems for Julia</li>
-<li><a href="./packages/#optimizejl"><strong>Optimize.jl</strong></a>: Optimization Algorithms in Pure Julia</li>
-<li><a href="./packages/#profilesjl"><strong>Profiles.jl</strong></a>: Performance and data profiles</li>
-<li><a href="./packages/#propackjl"><strong>PROPACK.jl</strong></a>: Julia wrapper of the PROPACK sparse SVD library</li>
-<li><a href="./packages/#qr_mumpsjl"><strong>qr_mumps.jl</strong></a>: Interface to multicore QR factorization qr_mumps</li>
+<li><a href="./packages/#nlpmodelsjl">NLPModels.jl</a>: Defines data structures for nonlinear
+  optimization models. Includes models for user-provided functions, automatic
+  differentiation, <a href="https://github.com/JuliaOpt/JuMP.jl">JuMP</a> /
+  <a href="https://github.com/JuliaOpt/MathProgBase.jl">MathProgBase</a> models, and the
+  abstract models used by <a href="./packages/#cutestjl">CUTEst.jl</a> and
+  <a href="./packages/#amplnlreaderjl">AmplNLReader.jl</a>.</li>
+<li><a href="./packages/#cutestjl">CUTEst.jl</a>: Provides access to the <strong>Constrained and
+  Unconstrained Testing Environment with safe threads (CUTEST)</strong> repository of
+  problems. Uses <a href="./packages/#nlpmodelsjl">NLPModels.jl</a>.</li>
+<li><a href="./packages/#amplnlreaderjl">AmplNLReader.jl</a>: Provides access to AMPL Models.
+  Uses <a href="./packages/#nlpmodelsjl">NLPModels.jl</a>.</li>
+<li><a href="./packages/#optimizationproblemsjl">OptimizationProblems.jl</a>: Implements
+  several problem in JuMP format. Can be used with
+  <a href="./packages/#nlpmodelsjl">NLPModels</a> for easy multiplatform access to problems.</li>
+</ul>
+<h2 id="tools">Tools</h2>
+<ul>
+<li><a href="./packages/#krylovjl">Krylov.jl</a>: Implements Hand-Picked Krylov methods. For
+  instance, Steihaug-Toint conjugate-gradient method for the minimization of a
+  non-convex quadratic in a Trust-Region.</li>
+<li><a href="./packages/#linearoperatorsjl">LinearOperators.jl</a>: Implements linear
+  operators, facilitating the use of some operations (like <strong>Hessian-vector</strong>
+  products or <strong>Limited BFGS</strong> matrices). Specially useful with Krylov methods.</li>
+<li><a href="./packages/#profilesjl">Profiles.jl</a>: Implements performance profile for Julia.
+  Uses and easy input and access the Plots library, enabling the use of various
+  backends.</li>
+</ul>
+<h2 id="methods">Methods</h2>
+<ul>
+<li><a href="./packages/#optimizejl">Optimize.jl</a>: Optimization Algorithms in Pure Julia.
+  The focus is to provide large-scale efficient and robust methods. Uses
+  <a href="./packages/#nlpmodelsjl">NLPModels</a> for unified access to all problems above.
+  Also defines tools for benchmarking and profiling codes using the same API.</li>
+</ul>
+<h2 id="interfaces">Interfaces</h2>
+<ul>
+<li><a href="./packages/#amdjl">AMD.jl</a>: Julia Interface to the AMD library of Amestoy,
+  Davis and Duff.</li>
+<li><a href="./packages/#hsljl">HSL.jl</a>: Julia Interface to the HSL Mathematical Software
+  Library.</li>
+<li><a href="./packages/#mumpsjl">MUMPS.jl</a>: Julia Interface to MUMPS.</li>
+<li><a href="./packages/#propackjl">PROPACK.jl</a>: Julia wrapper of the PROPACK sparse SVD
+  library</li>
+<li><a href="./packages/#qr_mumpsjl">qr_mumps.jl</a>: Interface to multicore QR factorization
+  qr_mumps.</li>
 </ul>
           <aside class="copyright" role="note">
             
