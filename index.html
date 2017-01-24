@@ -1,16 +1,10 @@
+
 <!DOCTYPE html>
-<!--[if lt IE 7 ]><html class="no-js ie6"><![endif]-->
-<!--[if IE 7 ]><html class="no-js ie7"><![endif]-->
-<!--[if IE 8 ]><html class="no-js ie8"><![endif]-->
-<!--[if IE 9 ]><html class="no-js ie9"><![endif]-->
-<!--[if (gt IE 9)|!(IE)]><!--> <html class="no-js"> <!--<![endif]-->
+<html class="no-js">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
     
-      
-        <title>JuliaSmoothOptimizers - Julia Smooth Optimizers organization. Models, solvers, and CUTEst access.</title>
-      
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
       
         <meta name="description" content="Julia Smooth Optimizers organization. Models, solvers, and CUTEst access.">
       
@@ -18,350 +12,413 @@
       
         <meta name="author" content="JuliaSmoothOptimizers">
       
-    
-    <meta property="og:url" content="None">
-    <meta property="og:title" content="JuliaSmoothOptimizers">
-    <meta property="og:image" content="None/./">
-    <meta name="apple-mobile-web-app-title" content="JuliaSmoothOptimizers">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    
-    
-    <link rel="shortcut icon" type="image/x-icon" href="./assets/images/favicon-e565ddfa3b.ico">
-    <link rel="icon" type="image/x-icon" href="./assets/images/favicon-e565ddfa3b.ico">
-    <style>
-      @font-face {
-      	font-family: 'Icon';
-      	src: url('./assets/fonts/icon.eot?52m981');
-      	src: url('./assets/fonts/icon.eot?#iefix52m981')
-               format('embedded-opentype'),
-      		   url('./assets/fonts/icon.woff?52m981')
-               format('woff'),
-      		   url('./assets/fonts/icon.ttf?52m981')
-               format('truetype'),
-      		   url('./assets/fonts/icon.svg?52m981#icon')
-               format('svg');
-      	font-weight: normal;
-      	font-style: normal;
-      }
-    </style>
-    <link rel="stylesheet" href="./assets/stylesheets/application-a422ff04cc.css">
-    
-      <link rel="stylesheet" href="./assets/stylesheets/palettes-05ab2406df.css">
+      
+        <link rel="shortcut icon" href="./assets/images/favicon.ico">
+      
+      <meta name="generator" content="mkdocs+mkdocs-material#1.0.3">
     
     
       
+        <title>Home - JuliaSmoothOptimizers</title>
+      
+    
+    
+      <script src="./assets/javascripts/modernizr-facb31f4a3.js"></script>
+    
+    
+      
+        
+        
+        
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    
+    
+      <link rel="stylesheet" href="./assets/stylesheets/application-f3ab63f78a.css">
+      
+        <link rel="stylesheet" href="./assets/stylesheets/application-02ce7adcc2.palette.css">
       
       
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:400,700|Ubuntu+Mono">
-      <style>
-        body, input {
-          font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
-        }
-        pre, code {
-          font-family: 'Ubuntu Mono', 'Courier New', 'Courier', monospace;
-        }
-      </style>
+        <link rel="stylesheet" href="./assets/style.css">
+      
     
-    
-      <link rel="stylesheet" href="./assets/Documenter.css">
-    
-      <link rel="stylesheet" href="./assets/style.css">
-    
-    <script src="./assets/javascripts/modernizr-4ab42b99fd.js"></script>
     
   </head>
   
   
   
-  <body class="palette-primary-deep-orange palette-accent-indigo">
-    
-      
-      
-    
-    <div class="backdrop">
-      <div class="backdrop-paper"></div>
-    </div>
-    <input class="toggle" type="checkbox" id="toggle-drawer">
-    <input class="toggle" type="checkbox" id="toggle-search">
-    <label class="toggle-button overlay" for="toggle-drawer"></label>
-    <header class="header">
-      <nav aria-label="Header">
-  <div class="bar default">
-    <div class="button button-menu" role="button" aria-label="Menu">
-      <label class="toggle-button icon icon-menu" for="toggle-drawer">
-        <span></span>
-      </label>
-    </div>
-    <div class="stretch">
-      <div class="title">
-        
-          <span class="path">
-            
-          </span>
-        
-        JuliaSmoothOptimizers
-      </div>
-    </div>
-    
-    
-      
-      <div class="button button-github" role="button" aria-label="GitHub">
-        <a href="https://github.com/JuliaSmoothOptimizers" title="@JuliaSmoothOptimizers on GitHub" target="_blank" class="toggle-button icon icon-github"></a>
-      </div>
-    
-    <div class="button button-search" role="button" aria-label="Search">
-      <label class="toggle-button icon icon-search" title="Search" for="toggle-search"></label>
-    </div>
-  </div>
-  <div class="bar search">
-    <div class="button button-close" role="button" aria-label="Close">
-      <label class="toggle-button icon icon-back" for="toggle-search"></label>
-    </div>
-    <div class="stretch">
-      <div class="field">
-        <input class="query" type="text" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck>
-      </div>
-    </div>
-    <div class="button button-reset" role="button" aria-label="Search">
-      <button class="toggle-button icon icon-close" id="reset-search"></button>
-    </div>
-  </div>
-</nav>
-    </header>
-    <main class="main">
-      
-      <div class="drawer">
-        <nav aria-label="Navigation">
   
-  <a href="https://github.com/JuliaSmoothOptimizers" class="project">
-    <div class="banner">
-      
-      <div class="name">
-        <strong>
-          JuliaSmoothOptimizers
-          <span class="version">
-            
-          </span>
-        </strong>
+    <body data-md-color-primary="deep-orange" data-md-color-accent="indigo">
+  
+    <svg class="md-svg">
+      <defs>
         
-          <br>
-          JuliaSmoothOptimizers
         
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448" viewBox="0 0 416 448" id="github"><path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19T128 352t-18.125-8.5-10.75-19T96 304t3.125-20.5 10.75-19T128 256t18.125 8.5 10.75 19T160 304zm160 0q0 10-3.125 20.5t-10.75 19T288 352t-18.125-8.5-10.75-19T256 304t3.125-20.5 10.75-19T288 256t18.125 8.5 10.75 19T320 304zm40 0q0-30-17.25-51T296 232q-10.25 0-48.75 5.25Q229.5 240 208 240t-39.25-2.75Q130.75 232 120 232q-29.5 0-46.75 21T56 304q0 22 8 38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0 37.25-1.75t35-7.375 30.5-15 20.25-25.75T360 304zm56-44q0 51.75-15.25 82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5T212 416q-19.5 0-35.5-.75t-36.875-3.125-38.125-7.5-34.25-12.875T37 371.5t-21.5-28.75Q0 312 0 260q0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25 30.875Q171.5 96 212 96q37 0 70 8 26.25-20.5 46.75-30.25T376 64q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34 99.5z"/></svg>
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="drawer">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="search">
+    <label class="md-overlay" data-md-component="overlay" for="drawer"></label>
+    
+      <header class="md-header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="." title="JuliaSmoothOptimizers" class=" md-icon md-icon--home  md-header-nav__button">
+          
+        </a>
       </div>
-    </div>
-  </a>
-  <div class="scrollable">
-    <div class="wrapper">
-      
-        <ul class="repo">
-          <li class="repo-download">
-            
-            <a href="https://github.com/JuliaSmoothOptimizers/archive/master.zip" target="_blank" title="Download" data-action="download">
-              <i class="icon icon-download"></i> Download
-            </a>
-          </li>
-          <li class="repo-stars">
-            <a href="https://github.com/JuliaSmoothOptimizers/stargazers" target="_blank" title="Stargazers" data-action="star">
-              <i class="icon icon-star"></i> Stars
-              <span class="count">&ndash;</span>
-            </a>
-          </li>
-        </ul>
-        <hr>
-      
-      <div class="toc">
-        <ul>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <span class="md-flex__ellipsis md-header-nav__title">
           
             
-  <li>
-    <a class="current" title="Home" href=".">
+              
+            
+            Home
+          
+        </span>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="search"></label>
+          
+<div class="md-search" data-md-component="search">
+  <div class="md-search__overlay"></div>
+  <div class="md-search__inner">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" accesskey="s" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false">
+      <label class="md-icon md-search__icon" for="search"></label>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            
+              
+
+
+  
+
+
+  <a href="https://github.com/JuliaSmoothOptimizers" title="Go to repository" class="md-source" data-md-source="github">
+    
+      <div class="md-source__icon">
+        <svg viewBox="0 0 24 24" width="24" height="24">
+          <use xlink:href="#github" width="24" height="24"></use>
+        </svg>
+      </div>
+    
+    <div class="md-source__repository">
+      GitHub
+    </div>
+  </a>
+
+            
+          </div>
+      </div>
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary">
+  <label class="md-nav__title md-nav__title--site" for="drawer">
+    <i class=" md-icon md-icon--home  md-nav__button">
+      
+    </i>
+    JuliaSmoothOptimizers
+  </label>
+  
+    <div class="md-nav__source">
+      
+
+
+  
+
+
+  <a href="https://github.com/JuliaSmoothOptimizers" title="Go to repository" class="md-source" data-md-source="github">
+    
+      <div class="md-source__icon">
+        <svg viewBox="0 0 24 24" width="24" height="24">
+          <use xlink:href="#github" width="24" height="24"></use>
+        </svg>
+      </div>
+    
+    <div class="md-source__repository">
+      GitHub
+    </div>
+  </a>
+
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  <li class="md-nav__item">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="toc">
+        Home
+      </label>
+    
+    <a href="." title="Home" class="md-nav__link md-nav__link--active">
       Home
     </a>
     
       
-        
-      
-      
-        <ul>
-          
-            <li class="anchor">
-              <a title="Optimization Problems" href="#optimization-problems">
-                Optimization Problems
-              </a>
-            </li>
-          
-            <li class="anchor">
-              <a title="Tools" href="#tools">
-                Tools
-              </a>
-            </li>
-          
-            <li class="anchor">
-              <a title="Methods" href="#methods">
-                Methods
-              </a>
-            </li>
-          
-            <li class="anchor">
-              <a title="Interfaces" href="#interfaces">
-                Interfaces
-              </a>
-            </li>
-          
-        </ul>
-      
+<nav class="md-nav md-nav--secondary">
+  
+  
     
-  </li>
-
-          
-            
-  <li>
-    <a class="" title="Packages" href="packages/">
-      Packages
-    </a>
-    
-  </li>
-
-          
-        </ul>
-        
-          <hr>
-          <span class="section">The author</span>
-          <ul>
-            
-            
-              
-              <li>
-                <a href="https://github.com/JuliaSmoothOptimizers" target="_blank" title="@JuliaSmoothOptimizers on GitHub">
-                  @JuliaSmoothOptimizers on GitHub
-                </a>
-              </li>
-            
-          </ul>
-        
-      </div>
-    </div>
-  </div>
+  
+  
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#optimization-problems" title="Optimization Problems" class="md-nav__link">
+    Optimization Problems
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tools" title="Tools" class="md-nav__link">
+    Tools
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#methods" title="Methods" class="md-nav__link">
+    Methods
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#interfaces" title="Interfaces" class="md-nav__link">
+    Interfaces
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
-      </div>
-      <article class="article">
-        <div class="wrapper">
+    
+  </li>
+
+    
+      
+      
+  <li class="md-nav__item">
+    
+      <a href="status/" title="Status" class="md-nav__link">
+        Status
+      </a>
+    
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#optimization-problems" title="Optimization Problems" class="md-nav__link">
+    Optimization Problems
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tools" title="Tools" class="md-nav__link">
+    Tools
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#methods" title="Methods" class="md-nav__link">
+    Methods
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#interfaces" title="Interfaces" class="md-nav__link">
+    Interfaces
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
-          <h1 id="julia-smooth-optimizers-"><a href="https://JuliaSmoothOptimizers.github.io">Julia Smooth Optimizers</a> - <a class="icon icon-github" href="https://github.com/JuliaSmoothOptimizers/"></a></h1>
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+               
+                 <a href="https://github.com/JuliaSmoothOptimizers/edit/master/docs/index.md" title="Edit this page" class="md-icon md-content__edit">edit</a>
+               
+              
+                
+                <h1 id="julia-smooth-optimizers-"><a href="https://JuliaSmoothOptimizers.github.io">Julia Smooth Optimizers</a> - <a href="https://github.com/JuliaSmoothOptimizers/"><img alt="" src="./assets/github.png" /></a></h1>
 <p>Here you will find a collection of Julia packages for Nonlinear Optimization.
 These packages provide the tools needed for creating optimization problems and
 methods, but also provide access for optimization problems and methods.</p>
-<p>See each package status <a href="./packages">here</a>.</p>
+<p>See each package status <a href="https://JuliaSmoothOptimizers.github.io/status/">here</a>.</p>
 <h2 id="optimization-problems">Optimization Problems</h2>
 <ul>
-<li><a href="./packages/#nlpmodelsjl">NLPModels.jl</a>: Defines data structures for nonlinear
+<li><a href="https://github.com/JuliaSmoothOptimizers/NLPModels.jl">NLPModels.jl</a>: Defines data structures for nonlinear
   optimization models. Includes models for user-provided functions, automatic
   differentiation, <a href="https://github.com/JuliaOpt/JuMP.jl">JuMP</a> /
   <a href="https://github.com/JuliaOpt/MathProgBase.jl">MathProgBase</a> models, and the
-  abstract models used by <a href="./packages/#cutestjl">CUTEst.jl</a> and
-  <a href="./packages/#amplnlreaderjl">AmplNLReader.jl</a>.</li>
-<li><a href="./packages/#cutestjl">CUTEst.jl</a>: Provides access to the <strong>Constrained and
+  abstract models used by <a href="https://github.com/JuliaSmoothOptimizers/CUTEst.jl">CUTEst.jl</a> and
+  <a href="https://github.com/JuliaSmoothOptimizers/AmplNLReader.jl">AmplNLReader.jl</a>.</li>
+<li><a href="https://github.com/JuliaSmoothOptimizers/CUTEst.jl">CUTEst.jl</a>: Provides access to the <strong>Constrained and
   Unconstrained Testing Environment with safe threads (CUTEST)</strong> repository of
-  problems. Uses <a href="./packages/#nlpmodelsjl">NLPModels.jl</a>.</li>
-<li><a href="./packages/#amplnlreaderjl">AmplNLReader.jl</a>: Provides access to AMPL Models.
-  Uses <a href="./packages/#nlpmodelsjl">NLPModels.jl</a>.</li>
-<li><a href="./packages/#optimizationproblemsjl">OptimizationProblems.jl</a>: Implements
+  problems. Uses <a href="https://github.com/JuliaSmoothOptimizers/NLPModels.jl">NLPModels.jl</a>.</li>
+<li><a href="https://github.com/JuliaSmoothOptimizers/AmplNLReader.jl">AmplNLReader.jl</a>: Provides access to AMPL Models.
+  Uses <a href="https://github.com/JuliaSmoothOptimizers/NLPModels.jl">NLPModels.jl</a>.</li>
+<li><a href="https://github.com/JuliaSmoothOptimizers/OptimizationProblems.jl">OptimizationProblems.jl</a>: Implements
   several problem in JuMP format. Can be used with
-  <a href="./packages/#nlpmodelsjl">NLPModels</a> for easy multiplatform access to problems.</li>
+  <a href="https://github.com/JuliaSmoothOptimizers/NLPModels.jl">NLPModels</a> for easy multiplatform access to problems.</li>
 </ul>
 <h2 id="tools">Tools</h2>
 <ul>
-<li><a href="./packages/#krylovjl">Krylov.jl</a>: Implements Hand-Picked Krylov methods. For
+<li><a href="https://github.com/JuliaSmoothOptimizers/Krylov.jl">Krylov.jl</a>: Implements Hand-Picked Krylov methods. For
   instance, Steihaug-Toint conjugate-gradient method for the minimization of a
   non-convex quadratic in a Trust-Region.</li>
-<li><a href="./packages/#linearoperatorsjl">LinearOperators.jl</a>: Implements linear
+<li><a href="https://github.com/JuliaSmoothOptimizers/LinearOperators.jl">LinearOperators.jl</a>: Implements linear
   operators, facilitating the use of some operations (like <strong>Hessian-vector</strong>
   products or <strong>Limited BFGS</strong> matrices). Specially useful with Krylov methods.</li>
-<li><a href="./packages/#profilesjl">Profiles.jl</a>: Implements performance profile for Julia.
+<li><a href="https://github.com/JuliaSmoothOptimizers/BenchmarkProfiles.jl">BenchmarkProfiles.jl</a>:
+  Implements performance profile for Julia.
   Uses and easy input and access the Plots library, enabling the use of various
   backends.</li>
 </ul>
 <h2 id="methods">Methods</h2>
 <ul>
-<li><a href="./packages/#optimizejl">Optimize.jl</a>: Optimization Algorithms in Pure Julia.
+<li><a href="https://github.com/JuliaSmoothOptimizers/Optimize.jl">Optimize.jl</a>: Optimization Algorithms in Pure Julia.
   The focus is to provide large-scale efficient and robust methods. Uses
-  <a href="./packages/#nlpmodelsjl">NLPModels</a> for unified access to all problems above.
+  <a href="https://github.com/JuliaSmoothOptimizers/NLPModels.jl">NLPModels</a> for unified access to all problems above.
   Also defines tools for benchmarking and profiling codes using the same API.</li>
 </ul>
 <h2 id="interfaces">Interfaces</h2>
 <ul>
-<li><a href="./packages/#amdjl">AMD.jl</a>: Julia Interface to the AMD library of Amestoy,
+<li><a href="https://github.com/JuliaSmoothOptimizers/AMD.jl">AMD.jl</a>: Julia Interface to the AMD library of Amestoy,
   Davis and Duff.</li>
-<li><a href="./packages/#hsljl">HSL.jl</a>: Julia Interface to the HSL Mathematical Software
+<li><a href="https://github.com/JuliaSmoothOptimizers/HSL.jl">HSL.jl</a>: Julia Interface to the HSL Mathematical Software
   Library.</li>
-<li><a href="./packages/#mumpsjl">MUMPS.jl</a>: Julia Interface to MUMPS.</li>
-<li><a href="./packages/#propackjl">PROPACK.jl</a>: Julia wrapper of the PROPACK sparse SVD
+<li><a href="https://github.com/JuliaSmoothOptimizers/MUMPS.jl">MUMPS.jl</a>: Julia Interface to MUMPS.</li>
+<li><a href="https://github.com/JuliaSmoothOptimizers/PROPACK.jl">PROPACK.jl</a>: Julia wrapper of the PROPACK sparse SVD
   library</li>
-<li><a href="./packages/#qr_mumpsjl">qr_mumps.jl</a>: Interface to multicore QR factorization
+<li><a href="https://github.com/JuliaSmoothOptimizers/qr_mumps.jl">qr_mumps.jl</a>: Interface to multicore QR factorization
   qr_mumps.</li>
 </ul>
-          <aside class="copyright" role="note">
-            
-            Documentation built with
-            <a href="http://www.mkdocs.org" target="_blank">MkDocs</a>
-            using the
-            <a href="http://squidfunk.github.io/mkdocs-material/" target="_blank">
-              Material
-            </a>
-            theme.
-          </aside>
-          
-            <footer class="footer">
               
-  <nav class="pagination" aria-label="Footer">
-    <div class="previous">
-      
-    </div>
-    <div class="next">
-      
-        <a href="packages/" title="Packages">
-          <span class="direction">
-            Next
-          </span>
-          <div class="page">
-            <div class="stretch">
-              <div class="title">
-                Packages
-              </div>
-            </div>
-            <div class="button button-next" role="button" aria-label="Next">
-              <i class="icon icon-forward"></i>
-            </div>
-          </div>
-        </a>
-      
-    </div>
-  </nav>
-
-            </footer>
-          
-        </div>
-      </article>
-      <div class="results" role="status" aria-live="polite">
-        <div class="scrollable">
-          <div class="wrapper">
-            <div class="meta"></div>
-            <div class="list"></div>
+            </article>
           </div>
         </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+        
+          <a href="status/" title="Status" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Status
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="http://www.mkdocs.org" title="MkDocs">MkDocs</a>
+        and
+        <a href="http://squidfunk.github.io/mkdocs-material/" title="Material for MkDocs">
+          Material for MkDocs</a>
       </div>
-    </main>
-    <script>
-      var base_url = '.';
-      var repo_id  = 'JuliaSmoothOptimizers';
-    </script>
-    <script src="./assets/javascripts/application-997097ee0c.js"></script>
+      
+        
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
     
-      <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_HTMLorMML"></script>
+      <script src="./assets/javascripts/application-2afe21e0b2.js"></script>
+      <script>var config={url:{base:"."}},app=new Application(config);app.initialize()</script>
+      
     
-      <script src="./assets/mathjaxhelper.js"></script>
     
+      
     
   </body>
 </html>

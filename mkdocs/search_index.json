@@ -2,7 +2,7 @@
     "docs": [
         {
             "location": "/",
-            "text": "Julia Smooth Optimizers\n - \n\n\nHere you will find a collection of Julia packages for Nonlinear Optimization.\nThese packages provide the tools needed for creating optimization problems and\nmethods, but also provide access for optimization problems and methods.\n\n\nSee each package status \nhere\n.\n\n\nOptimization Problems\n\n\n\n\nNLPModels.jl\n: Defines data structures for nonlinear\n  optimization models. Includes models for user-provided functions, automatic\n  differentiation, \nJuMP\n /\n  \nMathProgBase\n models, and the\n  abstract models used by \nCUTEst.jl\n and\n  \nAmplNLReader.jl\n.\n\n\nCUTEst.jl\n: Provides access to the \nConstrained and\n  Unconstrained Testing Environment with safe threads (CUTEST)\n repository of\n  problems. Uses \nNLPModels.jl\n.\n\n\nAmplNLReader.jl\n: Provides access to AMPL Models.\n  Uses \nNLPModels.jl\n.\n\n\nOptimizationProblems.jl\n: Implements\n  several problem in JuMP format. Can be used with\n  \nNLPModels\n for easy multiplatform access to problems.\n\n\n\n\nTools\n\n\n\n\nKrylov.jl\n: Implements Hand-Picked Krylov methods. For\n  instance, Steihaug-Toint conjugate-gradient method for the minimization of a\n  non-convex quadratic in a Trust-Region.\n\n\nLinearOperators.jl\n: Implements linear\n  operators, facilitating the use of some operations (like \nHessian-vector\n\n  products or \nLimited BFGS\n matrices). Specially useful with Krylov methods.\n\n\nProfiles.jl\n: Implements performance profile for Julia.\n  Uses and easy input and access the Plots library, enabling the use of various\n  backends.\n\n\n\n\nMethods\n\n\n\n\nOptimize.jl\n: Optimization Algorithms in Pure Julia.\n  The focus is to provide large-scale efficient and robust methods. Uses\n  \nNLPModels\n for unified access to all problems above.\n  Also defines tools for benchmarking and profiling codes using the same API.\n\n\n\n\nInterfaces\n\n\n\n\nAMD.jl\n: Julia Interface to the AMD library of Amestoy,\n  Davis and Duff.\n\n\nHSL.jl\n: Julia Interface to the HSL Mathematical Software\n  Library.\n\n\nMUMPS.jl\n: Julia Interface to MUMPS.\n\n\nPROPACK.jl\n: Julia wrapper of the PROPACK sparse SVD\n  library\n\n\nqr_mumps.jl\n: Interface to multicore QR factorization\n  qr_mumps.",
+            "text": "Julia Smooth Optimizers\n - \n\n\nHere you will find a collection of Julia packages for Nonlinear Optimization.\nThese packages provide the tools needed for creating optimization problems and\nmethods, but also provide access for optimization problems and methods.\n\n\nSee each package status \nhere\n.\n\n\nOptimization Problems\n\n\n\n\nNLPModels.jl\n: Defines data structures for nonlinear\n  optimization models. Includes models for user-provided functions, automatic\n  differentiation, \nJuMP\n /\n  \nMathProgBase\n models, and the\n  abstract models used by \nCUTEst.jl\n and\n  \nAmplNLReader.jl\n.\n\n\nCUTEst.jl\n: Provides access to the \nConstrained and\n  Unconstrained Testing Environment with safe threads (CUTEST)\n repository of\n  problems. Uses \nNLPModels.jl\n.\n\n\nAmplNLReader.jl\n: Provides access to AMPL Models.\n  Uses \nNLPModels.jl\n.\n\n\nOptimizationProblems.jl\n: Implements\n  several problem in JuMP format. Can be used with\n  \nNLPModels\n for easy multiplatform access to problems.\n\n\n\n\nTools\n\n\n\n\nKrylov.jl\n: Implements Hand-Picked Krylov methods. For\n  instance, Steihaug-Toint conjugate-gradient method for the minimization of a\n  non-convex quadratic in a Trust-Region.\n\n\nLinearOperators.jl\n: Implements linear\n  operators, facilitating the use of some operations (like \nHessian-vector\n\n  products or \nLimited BFGS\n matrices). Specially useful with Krylov methods.\n\n\nBenchmarkProfiles.jl\n:\n  Implements performance profile for Julia.\n  Uses and easy input and access the Plots library, enabling the use of various\n  backends.\n\n\n\n\nMethods\n\n\n\n\nOptimize.jl\n: Optimization Algorithms in Pure Julia.\n  The focus is to provide large-scale efficient and robust methods. Uses\n  \nNLPModels\n for unified access to all problems above.\n  Also defines tools for benchmarking and profiling codes using the same API.\n\n\n\n\nInterfaces\n\n\n\n\nAMD.jl\n: Julia Interface to the AMD library of Amestoy,\n  Davis and Duff.\n\n\nHSL.jl\n: Julia Interface to the HSL Mathematical Software\n  Library.\n\n\nMUMPS.jl\n: Julia Interface to MUMPS.\n\n\nPROPACK.jl\n: Julia wrapper of the PROPACK sparse SVD\n  library\n\n\nqr_mumps.jl\n: Interface to multicore QR factorization\n  qr_mumps.",
             "title": "Home"
         },
         {
@@ -17,7 +17,7 @@
         },
         {
             "location": "/#tools",
-            "text": "Krylov.jl : Implements Hand-Picked Krylov methods. For\n  instance, Steihaug-Toint conjugate-gradient method for the minimization of a\n  non-convex quadratic in a Trust-Region.  LinearOperators.jl : Implements linear\n  operators, facilitating the use of some operations (like  Hessian-vector \n  products or  Limited BFGS  matrices). Specially useful with Krylov methods.  Profiles.jl : Implements performance profile for Julia.\n  Uses and easy input and access the Plots library, enabling the use of various\n  backends.",
+            "text": "Krylov.jl : Implements Hand-Picked Krylov methods. For\n  instance, Steihaug-Toint conjugate-gradient method for the minimization of a\n  non-convex quadratic in a Trust-Region.  LinearOperators.jl : Implements linear\n  operators, facilitating the use of some operations (like  Hessian-vector \n  products or  Limited BFGS  matrices). Specially useful with Krylov methods.  BenchmarkProfiles.jl :\n  Implements performance profile for Julia.\n  Uses and easy input and access the Plots library, enabling the use of various\n  backends.",
             "title": "Tools"
         },
         {
@@ -31,72 +31,72 @@
             "title": "Interfaces"
         },
         {
-            "location": "/packages/",
-            "text": "This is a brief list of the installed packages and their situation.\nFor help, check the docs of each package,\n  \ngitter\n for\n  anyone online, or open an issue on GitHub\n\n\nAMD.jl \n\n\nApproximate Minimum Degree Ordering in Julia\n\n\n\n\n \n\n\n \n\n\n \n\n\n\n\nAmplNLReader.jl \n\n\nJulia AMPL Models Conforming to NLPModels.jl\n\n\n\n\n \n \n\n\n \n \n\n\n \n \n\n\n\n\nCUTEst.jl \n\n\nJulia's CUTEst Interface\n\n\n\n\n \n \n\n\n \n \n\n\n\n\n\n\nHSL.jl \n\n\nJulia interface to the HSL Mathematical Software Library\n\n\n\n\n \n\n\n \n\n\n\n\nKrylov.jl \n\n\nA Julia Basket of Hand-Picked Krylov Methods\n\n\n\n\n \n \n\n\n \n \n\n\n \n \n\n\n\n\nLinearOperators.jl \n\n\nLinear Operators for Julia\n\n\n\n\n \n \n\n\n \n \n\n\n\n\nMUMPS.jl \n\n\nA Julia Interface to MUMPS\n\n\n\n\n \n \n\n\n \n \n\n\n\n\nNLPModels.jl \n\n\nData Structures for Optimization Models\n\n\n\n\n \n \n\n\n \n \n\n\n \n \n\n\n\n\n\n\nOptimizationProblems.jl \n\n\nOptimization Problems for Julia\n\n\n\n\n \n\n\n \n\n\n \n\n\n\n\nOptimize.jl \n\n\nOptimization Algorithms in Pure Julia\n\n\n\n\n \n\n\n \n\n\n \n\n\n\n\nProfiles.jl \n\n\nPerformance and data profiles\n\n\n\n\n \n\n\n \n\n\n \n\n\n\n\nPROPACK.jl \n\n\nJulia wrapper of the PROPACK sparse SVD library\n\n\n\n\n \n\n\n \n\n\n \n\n\n\n\nqr_mumps.jl \n\n\nInterface to multicore QR factorization qr_mumps",
-            "title": "Packages"
+            "location": "/status/",
+            "text": "This is a brief list of the installed packages and their situation.\nFor help, check the docs of each package,\n  \ngitter\n for\n  anyone online, or open an issue on GitHub\n\n\nAMD.jl \n\n\nApproximate Minimum Degree Ordering in Julia\n\n\n \n\n \n\n \n\n\nAmplNLReader.jl \n\n\nJulia AMPL Models Conforming to NLPModels.jl\n\n\n \n\n \n\n \n\n\nBenchmarkProfiles.jl \n\n\nPerformance and data profiles\n\n\n \n\n \n\n \n\n\nCUTEst.jl \n\n\nJulia's CUTEst Interface\n\n\n \n\n \n\n\n\nHSL.jl \n\n\nJulia interface to the HSL Mathematical Software Library\n\n\n \n\n \n\n\nKrylov.jl \n\n\nA Julia Basket of Hand-Picked Krylov Methods\n\n\n \n \n\n \n \n\n \n \n\n\nLinearOperators.jl \n\n\nLinear Operators for Julia\n\n\n \n \n\n \n \n\n\n\nMUMPS.jl \n\n\nA Julia Interface to MUMPS\n\n\n \n\n \n\n\nNLPModels.jl \n\n\nData Structures for Optimization Models\n\n\n \n\n \n\n \n\n\n\nOptimizationProblems.jl \n\n\nOptimization Problems for Julia\n\n\n \n\n \n\n \n\n\nOptimize.jl \n\n\nOptimization Algorithms in Pure Julia\n\n\n \n\n \n\n \n\n\nPROPACK.jl \n\n\nJulia wrapper of the PROPACK sparse SVD library\n\n\n \n\n \n\n \n\n\nqr_mumps.jl \n\n\nInterface to multicore QR factorization qr_mumps",
+            "title": "Status"
         },
         {
-            "location": "/packages/#amdjl",
+            "location": "/status/#amdjl",
             "text": "Approximate Minimum Degree Ordering in Julia",
             "title": "AMD.jl"
         },
         {
-            "location": "/packages/#amplnlreaderjl",
+            "location": "/status/#amplnlreaderjl",
             "text": "Julia AMPL Models Conforming to NLPModels.jl",
             "title": "AmplNLReader.jl"
         },
         {
-            "location": "/packages/#cutestjl",
+            "location": "/status/#benchmarkprofilesjl",
+            "text": "Performance and data profiles",
+            "title": "BenchmarkProfiles.jl"
+        },
+        {
+            "location": "/status/#cutestjl",
             "text": "Julia's CUTEst Interface",
             "title": "CUTEst.jl"
         },
         {
-            "location": "/packages/#hsljl",
+            "location": "/status/#hsljl",
             "text": "Julia interface to the HSL Mathematical Software Library",
             "title": "HSL.jl"
         },
         {
-            "location": "/packages/#krylovjl",
+            "location": "/status/#krylovjl",
             "text": "A Julia Basket of Hand-Picked Krylov Methods",
             "title": "Krylov.jl"
         },
         {
-            "location": "/packages/#linearoperatorsjl",
+            "location": "/status/#linearoperatorsjl",
             "text": "Linear Operators for Julia",
             "title": "LinearOperators.jl"
         },
         {
-            "location": "/packages/#mumpsjl",
+            "location": "/status/#mumpsjl",
             "text": "A Julia Interface to MUMPS",
             "title": "MUMPS.jl"
         },
         {
-            "location": "/packages/#nlpmodelsjl",
+            "location": "/status/#nlpmodelsjl",
             "text": "Data Structures for Optimization Models",
             "title": "NLPModels.jl"
         },
         {
-            "location": "/packages/#optimizationproblemsjl",
+            "location": "/status/#optimizationproblemsjl",
             "text": "Optimization Problems for Julia",
             "title": "OptimizationProblems.jl"
         },
         {
-            "location": "/packages/#optimizejl",
+            "location": "/status/#optimizejl",
             "text": "Optimization Algorithms in Pure Julia",
             "title": "Optimize.jl"
         },
         {
-            "location": "/packages/#profilesjl",
-            "text": "Performance and data profiles",
-            "title": "Profiles.jl"
-        },
-        {
-            "location": "/packages/#propackjl",
+            "location": "/status/#propackjl",
             "text": "Julia wrapper of the PROPACK sparse SVD library",
             "title": "PROPACK.jl"
         },
         {
-            "location": "/packages/#qr_mumpsjl",
+            "location": "/status/#qr_mumpsjl",
             "text": "Interface to multicore QR factorization qr_mumps",
             "title": "qr_mumps.jl"
         }
